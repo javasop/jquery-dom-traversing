@@ -1,4 +1,4 @@
-## Lecture, Part Four: Adding to the DOM
+### Adding to the DOM
 
 Let's take a look at four approaches of adding/changing content in the DOM.
 
@@ -7,7 +7,8 @@ Let's take a look at four approaches of adding/changing content in the DOM.
 * `.append()`
 * `.appendTo()`
 
-## Exercise, Part Four: Dead Presidents
+
+### Dead Presidents
 
 * Find all of the presidents who died in office (hint: they have a `died` class on their `tr`).
 * Append `<span class="died">(Died)<span>` to the the `term` column.

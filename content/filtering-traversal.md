@@ -1,4 +1,4 @@
-## Lecture, Part Three: Filtering and Traversal
+### Filtering and Traversal
 
 Let's talk about a few [DOM traversal methods](http://api.jquery.com/category/traversing/tree-traversal/).
 
