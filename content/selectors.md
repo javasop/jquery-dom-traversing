@@ -23,9 +23,9 @@ Let's take a look at [this simple form](http://jsbin.com/basolo/) and try out so
 
 ### Laboratory
 
-[Here is an little experiment](exp) where you can play around and try out some different selectors.
+Here is an little experiment where you can play around and try out some different selectors.
 
-[exp]: http://codylindley.com/jqueryselectors/
+http://codylindley.com/jqueryselectors/
 
 
 ## Exercise, Part One: The Presidents

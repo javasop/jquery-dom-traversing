@@ -1,4 +1,4 @@
-## Lecture, Part Two: Manipulating CSS
+### Manipulating CSS
 
 Once we have an element in our sites, we probably want to do something with it, right?
 
@@ -8,17 +8,8 @@ In this case, let's add some CSS styling. Let's say we wanted to grab all of the
 $('.federalist').css('color', 'pink');
 ```
 
-One thing you might have noticed about CSS is that it really likes hyphens. So, to change a background color, you would use `background-color`. The thing about hyphens is that they are a no-no in JavaScript. So, we *should* to camel-case our property names in our CSS methods.
 
-```js
-$('.federalist').css('backgroundColor', 'pink');
-```
-
-You'll notice I said "should" instead of must. At the end of the day that's just a string. You can do it the other way, but it's against convention.
-
-```js
-$('.federalist').css('background-color', 'pink');
-```
+### Setting Multiple Css Properties
 
 Right now, we're setting individual properties. We can also pass in a conditional object in order to change multiple CSS attributes all at once.
 
@@ -28,10 +19,10 @@ $('.federalist').css({
   fontWeight: 'bold'
 });
 ```
-
-If you ignored me earlier and insisted on using hyphens, you're going to have to wrap those property names in quotes now. Yuck.
-
 Writing CSS by hand is probably a bad idea. We're better off using classes to style our content.
+
+
+### Add, Remove Classes
 
 We can add and remove classes pretty easily in jQuery.
 
@@ -53,7 +44,7 @@ $('.federalist').toggleClass('red');
 ```
 
 
-## Exercise, Part Two: Style the Presidents
+### Exercise: Style the Presidents
 
 * Add the class of `red` to all of the Republicans.
 * Add the class of `blue` to all of the Democrats.
