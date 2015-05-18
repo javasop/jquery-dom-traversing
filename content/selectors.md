@@ -28,7 +28,7 @@ Here is an little experiment where you can play around and try out some differen
 http://codylindley.com/jqueryselectors/
 
 
-## Exercise, Part One: The Presidents
+### Exercise: The Presidents
 
 For this exercise, we're going to play with [a table of the Presidents of the United States of America][potus].
 
